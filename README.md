@@ -2,7 +2,7 @@
 PLSQL-Collection-Records-GOTO-Statements 
 
 This project demonstrates a PL/SQL solution for managing library patrons. It utilizes Oracle Database features such as Nested Tables to store fine details and a Stored Procedure to evaluate a patron's eligibility to borrow restricted (high-demand) items based on their outstanding fines.
-📝 Project Structure & Code Explanation
+
 1. Database Schema Setup
 What this represents: Defining the complex data types and the main storage table.
 Before storing patrons, we define a custom collection type to handle multiple fine records for a single person.
